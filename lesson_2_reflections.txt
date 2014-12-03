@@ -1,0 +1,13 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: A .git folder is created within the folder that was active at the time of
+the command.  It needs to be done so that Git can  prepare to track changes.
+
+
+Q: How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+A: The staging area is where files are worked on before being committed.  It is
+a more temporary location where if changes are lost it is not too costly.  The
+value it offers is that it provides a go-between between the working directory
+and the repository while preserving the information in both.
