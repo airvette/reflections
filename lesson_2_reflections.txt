@@ -28,3 +28,19 @@ A: Branches would be helpful when adding new features, fixing bugs or changing
 the capabilities of a project.  Branches help by segregrating changes and making
 sure that changes intended for one type of problem that is being solved do not
 bleed into other areas or, even worse, the last working version of the project.
+
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: The diagrams help because it is easy to see when logical changes occurred
+relative to the different branches, allowing for easier tracking of changes.
+
+
+Q: What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+A: The result is that the changes that were made in both branches are brought
+together in the same place.  This is so the feature changes made in both are in
+the master copy.  It is represented in the diagram in the described fashion
+because it is easier to see how each commit worked towards making a feature
+update.
