@@ -11,3 +11,20 @@ A: The staging area is where files are worked on before being committed.  It is
 a more temporary location where if changes are lost it is not too costly.  The
 value it offers is that it provides a go-between between the working directory
 and the repository while preserving the information in both.
+
+
+Q: How can you use the staging area to make sure you have one commit per
+logical change?
+
+A: One can make sure that they only commit after a logical change.  I'm not
+really sure how the staging area makes this any different, isn't the commit
+command the primary action?
+
+
+Q: What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+A: Branches would be helpful when adding new features, fixing bugs or changing
+the capabilities of a project.  Branches help by segregrating changes and making
+sure that changes intended for one type of problem that is being solved do not
+bleed into other areas or, even worse, the last working version of the project.
