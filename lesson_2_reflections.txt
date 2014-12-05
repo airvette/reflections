@@ -44,3 +44,12 @@ together in the same place.  This is so the feature changes made in both are in
 the master copy.  It is represented in the diagram in the described fashion
 because it is easier to see how each commit worked towards making a feature
 update.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+A: The pro of automatic merging is that it is less work for the user, which is
+especially helpful if the merge has straightforward elements that software can
+make decisions on.  The drawback is that it cannot make conflict resolution
+decisions on its own.  It does make conflict resolution easier by identifying
+the sections needing resolution.
