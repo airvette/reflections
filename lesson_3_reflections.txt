@@ -1,0 +1,5 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+A: A remote repositor would be used when you are working as a group on a project.  It provides one central location where all 
+members of the team can make changes and updates to the project.  The this approach is especially useful when the members of the
+team are geographically separated.
