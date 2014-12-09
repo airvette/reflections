@@ -13,3 +13,16 @@ of their work.  If Git automatically pushed changes to one's local computer, one
 might have their work overwritten or disassociated with the master/current
 branch causing confusion with the individual or the team.  Doing manual pulls
 allows the user to make commits when they are ready.
+
+
+Q: Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+A: Forks are when one copies a repository and its associated commits on GitHub
+ into another area.  It could be when one wants to make changes to a repo, but
+ doesn't have permissions to make the changes nor do they want to impact the
+ original repo.  A clone is the exact replica of a repo pulled from another repo
+ existing on a local computer or on GitHub.  A clone is something used when one
+ desires a local copy of a repo.  A branch is when one changes the direction of
+ a repo and starts making changes/updates that they do not want to impact the
+ master branch.  It is useful when experimenting.
