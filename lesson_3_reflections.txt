@@ -26,3 +26,11 @@ A: Forks are when one copies a repository and its associated commits on GitHub
  desires a local copy of a repo.  A branch is when one changes the direction of
  a repo and starts making changes/updates that they do not want to impact the
  master branch.  It is useful when experimenting.
+
+
+Q: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+A: It is beneficial because it means that one does not have to be online to have
+the most up to date version.  Changes can be made on the go and the pushed to
+the remote later.
